@@ -95,6 +95,7 @@ class Program{
 		Console.WriteLine("2 - Mostrar livros cadastrados");
 		Console.WriteLine("3 - Pesquisar Livro por titulo");
 		Console.WriteLine("4 - Encontrar livro mais novo que ano");
+		Console.WriteLine("5 - Sair e Salvar");
 		Console.Write("Escolha uma opção: ");
 		return int.Parse(Console.ReadLine());
 	}
